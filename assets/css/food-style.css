@@ -1,0 +1,30 @@
+
+.form-container{
+  display: flex;
+border: 1px solid grey;
+border-radius: 15px;
+padding:15%;
+}
+.form-container .field{
+			height: 50px;
+			width:  100%;
+			margin-top: 5px;
+		}
+.form-container .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 15px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+fieldset{
+  border: 1px solid grey;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+

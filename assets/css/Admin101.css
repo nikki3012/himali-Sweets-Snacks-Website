@@ -1,0 +1,61 @@
+.holder {
+	height: 100px;
+	width: 100px;
+
+}
+		/* conflict img overlapping */
+		 img {
+			max-width: 100px;
+			max-height: 100px;
+			min-width: 100px;
+			min-height: 100px;
+		} 
+
+		input[type="file"] {
+			margin-top: 5px;
+		}
+
+		.heading {
+			font-family: Montserrat;
+			font-size: 45px;
+			color: green;
+		}
+
+		.row{
+			--bs-gutter-x: 1.5rem;
+    		--bs-gutter-y: 0;
+    		display: flex;
+    		flex-wrap: wrap;
+   			margin-top: calc(-1 * var(--bs-gutter-y));
+    		margin-right: calc(1. * var(--bs-gutter-x));
+    		margin-left: calc(1.5 * var(--bs-gutter-x));
+		}
+		.container1 {
+			display: flex;
+			
+		
+		}
+		.container1 .innerr{
+			border: solid 1px red;
+		}
+		
+
+		.container1>div {
+			margin: 160px;
+		}
+		.container1 .field{
+			height: 50px;
+			width:  200%;
+			margin-top: 5px;
+		}
+		.container1 .field input{
+			height: 100%;
+			width: 100%;
+			outline: none;
+			padding-left: 15px;
+			border-radius: 15px; 
+			border: 1px solid rgb(211, 211, 211);
+			border-bottom-width: 2px;
+			font-size: 17px;
+			transition: all 0.3s ease;
+		}
